@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Makanan Lezat</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Tentang</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">kontak</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Pizza Nation</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="logo restoran.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Pizza Nation</h1><br>
+      <h5 class="w3-center">Pizza since 2015</h5>
+      <p class="w3-large">pizza nation adalah pizza homemade yang di sajikan secara fress dough <span class="w3-tag w3-light-grey">kualitas</span> terbaik.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Pizza Nation cocok untuk semua kalangan, jangan lupa untuk mencoba semua rasa yang ada pada menu Pizza Nation.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Daftar Menu</h1><br>
+      <h4>Double Beef</h4>
+      <p class="w3-text-grey">Daging sapi, smoke beef, pepperoni, Mozarela </p><br>
+    
+      <h4>Pizza Green Sembalun</h4>
+      <p class="w3-text-grey">Daging sapi, sosis sapi, peperoni, mozarela, bawang bombay, paprika dan tomat</p><br>
+    
+      <h4>Chicken Mushroom</h4>
+      <p class="w3-text-grey">Daging ayam, bawang bombay, tomat, jamur, mozarela</p><br>
+    
+      <h4>Triple Cheese Pepperoni</h4>
+      <p class="w3-text-grey">Chedar, keju bubuk, pepperoni, mozarella</p><br>
+    
+      <h4>Ausie Beef</h4>
+      <p class="w3-text-grey">Sosis sapi, smoke beef, bawang bombay, mozarela</p>
+
+      <h4>Duo Spicy</h4>
+      <p class="w3-text-grey">Daging sapi dan ayam dibumbu pedas</p>
+      
+      <h4>Carnivora Pizza</h4>
+      <p class="w3-text-grey">Daging sapi, pepperoni mozarela</p>
+
+      <h4>Pepperoni Mozarela</h4>
+      <p class="w3-text-grey">Pepperoni, mozarela</p>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="menupizza.jpeg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Ulasan</h1><br>
+    <p>kami menyediakan pizza dalam ukuran large dan medium , Pizza Nation buka setiap hari jam 16.00-22.00 beralamat di jln airlangga menggunakan foodtruck.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Pizza Nation Mataram</b></p>
+    <p>Anda bisa mengubungi nomor 087851557393 untuk memesan dan Ig pizzanation_mataram:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nama" required name="Nama"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="jumlah pesanan" required name="pesanan"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="hari dan waktu" required name="hari" value="2022-25-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Pesan / reques pesanan" required name="Pesan"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">KIRIM PESANAN</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+
+</body>
+</html>
